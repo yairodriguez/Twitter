@@ -1,0 +1,31 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "iPhone/iPad concept for Twitter.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yairodriguez/twitter.git"
+  },
+  "keywords": [
+    "Twitter",
+    "Mobile",
+    "RWD",
+    "Sass",
+    "HTML5"
+  ],
+  "author": "Yair <@imyairodrigue>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yairodriguez/twitter/issues"
+  },
+  "homepage": "https://github.com/yairodriguez/twitter#readme",
+  "devDependencies": {
+    "node-sass": "^4.0.0",
+    "sass-lint": "^1.10.2"
+  }
+}
