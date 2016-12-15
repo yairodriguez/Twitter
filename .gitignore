@@ -5,7 +5,7 @@
 # Exclude build and development folders from Git #
 ##################################################
 .tmp/
-build/
+dist/
 
 # Dependency directory #
 ########################
