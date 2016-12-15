@@ -1,0 +1,15 @@
+basePath: "https://github.com/yairodriguez/twitter"
+dest: "docs/sass"
+display:
+  access: ["private", "public"]
+  alias: true
+  watermark: true
+package:
+  title: "Twitter Docs"
+  name: "Twitter-docs"
+  version: "0.1.0"
+  license: "MIT"
+  homepage: "mytwitter.design"
+theme: "neat"
+groups:
+  undefined: Ungrouped
