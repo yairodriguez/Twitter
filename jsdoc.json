@@ -1,0 +1,36 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": [ "jsdoc", "closure" ]
+  },
+  "source": {
+    "include": [ "app/scripts" ],
+    "exclude": [ "tests", "node_modules" ],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": ["plugins/markdown"],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "applicationName": "Twitter",
+    "disqus": "",
+    "googleAnalytics": "",
+    "openGraph": {
+      "title": "Twitter",
+      "type": "website",
+      "image": "",
+      "site_name": "",
+      "url": ""
+    },
+    "meta": {
+      "title": "Twitter",
+      "description": "iPhone/iPad concept for Twitter",
+      "keyword": "Mobile First, ES6, TDD, Jade, Sass"
+    },
+    "linenums": true
+  },
+  "opts": {
+    "destination": "docs/js/"
+  }
+}
